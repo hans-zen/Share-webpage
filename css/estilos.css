@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body,html{
+	height: 100%;
+}
+
+
+textarea#oneurl {
+	width: 80%;
+	height: 35px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: 'Lato', sans-serif;
+	color: #3D3C40;
+
+}
+
+ h3{
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 4vw;
+	color: #3D3C40;
+}
+
+
+.separriba
+{
+margin-top: 1vw;
+}
+
+#general-wrapper{
+width: 100%;
+height: 30%;
+background: url(../img/table.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+#pregunta1
+{
+background-color: #52BFB3;
+height: 40%;
+}
+
+#pregunta1 h4
+{
+	color: white;
+}
+
+
+#pregunta2
+{
+	background-color: #6EFFEF;
+	height: 40%;
+	display: none;
+}
+
+#pregunta3
+{
+	background-color: #6EFFEF;
+	height: 40%;
+	display: none;
+}
+
+#fin1
+{
+	background-color: #7F8E99;
+	height: 40%;
+	display: none;
+}
+
+#fin2
+{
+	background-color: #7F8E99;
+	height: 40%;
+	display: none;
+}
+#fin3
+{
+	background-color: #7F8E99;
+	height: 40%;
+	display: none;
+}
+#fin4
+{
+	background-color: #7F8E99;
+	height: 40%;
+	display: none;
+}
+
+#wrapperurl{
+	height: 25%;
+}
+#foot{
+	
+	background-color: black;
+	height: 20%;
+	color: white;
+}
