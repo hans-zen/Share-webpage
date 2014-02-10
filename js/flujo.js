@@ -2,6 +2,13 @@
 
 $(document).ready(function(){
 
+  $("#start").click(function(){
+    $("#instructions").hide();
+    $("#start").hide();
+    $("#fantasma").hide();
+    $("#pregunta1").css('display','block');
+    $("#general").css('height','20%');
+  });
 
   $("#si1").click(function(){
     $("#pregunta1").hide();

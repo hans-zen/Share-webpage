@@ -12,37 +12,39 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/kickstart.js"></script>
 	<script type="text/javascript" src="js/flujo.js"></script>
+	<script type="text/javascript" src="js/flowtype.js"></script>
 
 </head>
 
 <body>
-<div id="general-wrapper">
-<div class="grid flex">
+<div id="general">
+<div  class="grid flex">
 
-	<div class="col_12 center">
+	<div id ="title" class="col_12 center">
 
-		<h2>El "oversharing" es un problema que aqueja a internet, usa esta guía para saber si estás "sobrecompartiendo"</h2>
+		<h3> <span><a style="text-decoration: none; color: inherit;" href="javascript:history.go(0)">"I Want to Share This"</a></span></h3>
 	
 	</div>
 
-</div><!--grid-->
-</div><!--general wrapper-->
+<div class="clear"></div>
 
-<div id="wrapperurl">
+	<div id="instructions" class="col_12  center">
 
-<div class="grid flex">
+	<h3>Copy and paste the url of a page you want to share on facebook</h3>
+</div>
 
-	<div class="col_12 center">
-
-	<h3>Copia y pega la url de una página que te gustaría compartir en facebook</h3>
+<div id="urls" class="col_12 center">
 
 	<textarea name="theurl" id="oneurl" onfocus="this.value=''; setbg('#e5fff3');" onblur="setbg('white')">http://</textarea>
 			<br>
+		<button id="start">Start</button>
 	
-	</div>
+</div>
 
 </div><!--grid-->
 </div>
+
+<div id="fantasma"></div>
 
 <!--FLUJO----------------- -->
 
@@ -50,19 +52,24 @@
 	<div class="grid flex">
 		<div class="col_12">
 
-			<div class="col_6 left">
-				<h4>¿Es de interés general?</h4><BUTTON id="si1">sí</BUTTON>
+			<div class=" azul col_6 center">
+				<h4>Is this of general interest?</h4>
+				<BUTTON id="si1">yes</BUTTON>
 				<button id="no1">no</button>
 			</div>
 
 			<div class="col_6">
+			
 				<p> Los temas de interés general son cosas que le competen a todos, amigos o no:</p>
+			
 
+			
 				<h5>Política</h5>
 				<h5>Salud</h5>
 				<h5>Seguridad</h5>
 				<h5>Sabiduría</h5>
 			</div>
+
 		</div>
 	</div><!--col12-->
 </div><!--grid-->
@@ -127,29 +134,27 @@
 	</div>
 </div>
 
-</body>
-
-<footer>
-
-	<div id="foot">
-<div class="grid">
-	This site is awesome because of:
-	<br>
-	<a href="https://twitter.com/spacem3n">@spacem3n</a>
-	<br>
-	<a href="https://twitter.com/unanunnaki">@unanunnaki</a>
-	</div>
-</div>
-</footer>
-
 
 
 <script type="text/javascript">
-	
-
-
-
+	$('body').flowtype({
+   minimum   : 650,
+   maximum   : 1200,
+   minFont   : 12,
+   maxFont   : 40,
+   fontRatio : 30,
+   lineRatio : 1.45
+});
 
 </script>
+</body>
+
+<footer>
+	
+	<div class="grid">
+	<p>This site is awesome because of:</p> <a href="https://twitter.com/spacem3n">@spacem3n</a> <a href="https://twitter.com/unanunnaki">@unanunnaki</a>
+	</div>
+
+</footer>
 
 </html>
