@@ -15,11 +15,16 @@ textarea#oneurl {
 	color: #3D3C40;
 
 }
+h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 4vw;
+	color: #3D3C40;
+}
 
  h3{
 
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 4vw;
+	font-size: 3vw;
 	color: #3D3C40;
 }
 
@@ -45,9 +50,11 @@ background-color: #52BFB3;
 height: 40%;
 }
 
-#pregunta1 h4
+
+h4
 {
 	color: white;
+	font-size: 4vw;
 }
 
 
