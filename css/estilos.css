@@ -21,7 +21,7 @@ h2{
 	color: #3D3C40;
 }
 
- h3{
+h3{
 
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 3vw;
@@ -31,23 +31,23 @@ h2{
 
 .separriba
 {
-margin-top: 1vw;
+	margin-top: 1vw;
 }
 
 #general-wrapper{
-width: 100%;
-height: 30%;
-background: url(../img/table.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- }
+	width: 100%;
+	height: 30%;
+	background: url(../img/table.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
 #pregunta1
 {
-background-color: #52BFB3;
-height: 40%;
+	background-color: #52BFB3;
+	height: 40%;
 }
 
 
@@ -106,4 +106,9 @@ h4
 	background-color: black;
 	height: 20%;
 	color: white;
+}
+
+.labelURL{
+	margin-top: 5px;
+	//color: white;
 }
